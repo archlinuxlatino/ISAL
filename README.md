@@ -1,6 +1,6 @@
 # ISAL
 ##
-<h1 align="center">ISAC20 - SCRIPTS DE INSTALACION DE ARCHLINUX</h1>
+<h1 align="center">INSTALACION POR SCRIPTS DE ARCHLINUX VERSION 2020-05-23</h1>
     
 <h4 align="center">La instalación y configuración de archlinux nunca ha sido tan fácil!</h4>
 
