@@ -18,7 +18,7 @@
          chmod 777 tu_archivo 
 
 ## COMO USAR
-    1 - instbase [Sistema Base]: cd ISAL ; ./installbase
+    1 - installbase [Sistema Base]: cd ISAL ; ./installbase
     Contiene:
         Seleccion de Teclado.
         Editor Preferido.
@@ -33,4 +33,4 @@
         Generacion de archivo initcpio
         Instalacion de Gestor de Arranque
     
-    2 - instpost [Xorg, Escritorio, ETC.]: cd ISAL ; ./install-all
+    2 - install-all [Xorg, Escritorio, ETC.]: cd ISAL ; ./install-all
