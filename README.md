@@ -19,4 +19,7 @@
 
 ## COMO USAR
     1 - instbase [Sistema Base]: cd ISAC20 ; ./installbase
+    Contiene:
+        
+    
     2 - instpost [Xorg, Escritorio, ETC.]: cd ISAC20 ; ./install-all
