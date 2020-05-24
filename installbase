@@ -484,7 +484,7 @@ install_base_system() {
   print_info "Usando el script pacstrap, instalamos el sistema base. El grupo de paquetes base-devel también se instalará."
   rm ${MOUNTPOINT}${EFI_MOUNTPOINT}/vmlinuz-linux
   select_linux_version
-  pacstrap ${MOUNTPOINT} base-devel parted btrfs-progs f2fs-tools net-tools
+  pacstrap ${MOUNTPOINT} base-devel parted btrfs-progs f2fs-tools net-tools htop networkmanager
   [[ $? -ne 0 ]] && error_msg "Error al instalar el sistema base en ${MOUNTPOINT} Verifique los mensajes de error arriba."
   local PTABLE=$(parted -sl | grep "gpt")
   [[ -n $PTABLE ]] && pacstrap ${MOUNTPOINT} gptfdisk
