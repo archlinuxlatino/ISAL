@@ -846,7 +846,7 @@ while true; do
   echo " 8) $(mainmenu_item "${checklist[8]}" "Configurar Timezone (Fecha y Hora del sistema)" "${ZONE}/${SUBZONE}")"
   echo " 9) $(mainmenu_item "${checklist[9]}" "Configurar Hardware Clock (Reloj del Hardware)" "${hwclock}")"
   echo "10) $(mainmenu_item "${checklist[10]}" "Configurar Idioma (Locale)" "${LOCALE}")"
-  echo "11) $(mainmenu_item "${checklist[11]}" "Configurar Mkinitcpio (Disco RAM Inicial)")"
+  echo "11) $(mainmenu_item "${checklist[11]}" "Configurar Initcpio (Disco RAM Inicial)")"
   echo "12) $(mainmenu_item "${checklist[12]}" "Instalar Cargador de Arranque" "${bootloader}")"
   echo "13) $(mainmenu_item "${checklist[13]}" "Contraseña Root")"
   echo ""
