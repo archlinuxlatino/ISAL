@@ -18,8 +18,19 @@
          chmod 777 tu_archivo 
 
 ## COMO USAR
-    1 - instbase [Sistema Base]: cd ISAC20 ; ./installbase
+    1 - instbase [Sistema Base]: cd ISAL ; ./installbase
     Contiene:
-        
+        Seleccion de Teclado.
+        Editor Preferido.
+        Configuracion de Lista de Servidores
+        Particionado de Disco
+        Instalacion Sistema Base.
+        Generacion de FSTAB
+        Configuracion de Hostname
+        Configuracion de Zona Horaria
+        Configuracion de Reloj
+        Configuracion de Idioma
+        Generacion de archivo initcpio
+        Instalacion de Gestor de Arranque
     
-    2 - instpost [Xorg, Escritorio, ETC.]: cd ISAC20 ; ./install-all
+    2 - instpost [Xorg, Escritorio, ETC.]: cd ISAL ; ./install-all
